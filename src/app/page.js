@@ -1,5 +1,7 @@
 "use client";
 
+import { PostOwner } from "@/components/PostOwner";
+
 export default function HomePage() {
   return (
     <div
@@ -15,13 +17,16 @@ export default function HomePage() {
         <div className="vstack gap-3">
           <div className="d-flex align-items-center gap-3">
             <img
-              src="/profileImages/handsome.jpg"
+              src="/profileImages/pro.jpg"
               width="48"
               height="48"
               className="rounded-circle"
               style={{ objectFit: "cover" }}
             />
-            <span className="fw-semibold fs-5">Chayanin Suatap 650610560</span>
+            <span className="fw-semibold fs-5">
+              {" "}
+              "Santod Khiawaubon 650612101"
+            </span>
           </div>
 
           <span>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</span>
